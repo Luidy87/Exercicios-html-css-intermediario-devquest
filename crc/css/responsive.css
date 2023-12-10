@@ -1,0 +1,23 @@
+@media (max-width:965px){
+ .container{
+    margin: 40px;
+    
+ }
+}
+
+@media (max-width:556px){
+    .exercicios{
+padding: 80px 5px 80px 5px;   
+    }
+   }
+
+   @media (max-width:375px){
+    .exercicios{
+flex-direction: column; 
+padding: 50px 20px;  
+text-align: center;
+    }
+    .exercicios li{
+        padding: 15px;
+    }
+   }

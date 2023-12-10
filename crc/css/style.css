@@ -1,0 +1,75 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(93,133,206,1) 47%, rgba(103,146,191,1) 63%, rgba(183,252,70,0.4005251758906687) 100%);
+}
+.container{
+    border: 2px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.header{
+   padding: 20px;
+    text-align: center;
+    background: linear-gradient(121deg, rgba(15, 37, 110, 1) 12%, rgba(32, 178, 7, 1) 84%);
+    background-blend-mode: normal;
+}
+
+@keyframes animacao-html{
+        from{ /*de*/
+            color: #000000;
+        } 
+        to{/*para*/
+            color: red;
+        } 
+    }
+  
+.html{
+    animation-name: animacao-html;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 50; 
+    animation-direction: alternate;
+    animation-direction: reverse;
+}
+
+@keyframes animacao-css{
+    from{ /*de*/
+        color: #000000;
+        
+    } 
+    to{/*para*/
+        color: blue;
+        border-radius: 300px;
+    } 
+}
+.css{
+    animation-name: animacao-css;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 50; 
+    animation-direction: alternate;
+    animation-direction: reverse;
+}
+
+
+
+.exercicios{
+    background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 80px;
+}
+
+.exercicios a{
+    color: yellow;
+    font-size: 20px;
+}
+
+.exercicios a:hover{
+    color:red;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    transition: ease-in-out 1s;
+}
